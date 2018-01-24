@@ -63,7 +63,7 @@
     ```
     * 限定线程数目，控制系统资源消耗
 
-## [线程池 Thread Pool](https://github.com/ZongWenlong/JavaLab/tree/master/src/main/java/multithread/pool)
+## [线程池 Thread Pool](https://github.com/superstarchenxin/JavaConcurrencyInPractice/tree/master/src/main/java/multithread/pool)
 
 
 ## Executor 生命周期
