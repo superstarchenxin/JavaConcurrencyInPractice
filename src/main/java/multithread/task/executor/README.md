@@ -133,7 +133,7 @@
     * Timer线程不捕获异常
 2. **ScheduledThreadPool**：
     * 比Timer更好，可以创建线程池
-    * ScheduledThreadPool可以通过ScheduledThreadPoolExecutor搞糟函数或newScheduledThreadPool工厂方法创建
+    * ScheduledThreadPool可以通过ScheduledThreadPoolExecutor创建
 3. 为任务设定时限（超过时限，取消执行，客户端可以通过调用future.get(会抛出CancellationException)或者isCancelled方法判断是哪种情况）
 
     ```java
@@ -150,7 +150,7 @@
 ### Future + Callable + ExecutorService
 * Callable 接口中 call方法替代Runnable中的run的方法。
 * 将Callable对象提交给ExecutorService执行，返回相应的Future对象
-* Future.get(), 如果任务完成，get会立即返回或者抛出一个Exception，如果任务没有完成，get将阻塞并指导任务完成
+* Future.get(), 如果任务完成，get会立即返回或者抛出一个Exception，如果任务没有完成，get将阻塞并直到任务完成
 * [示例代码](FutureRenderer.java) 加载网页文字和图片（一个线程加载文字，一个线程下载图片）
 
 ### CompletionService

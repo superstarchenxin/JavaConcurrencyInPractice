@@ -1,4 +1,4 @@
-package multithread.examples;
+package multithread.task.executor;
 
 import multithread.tool.LaunderThrowable;
 
