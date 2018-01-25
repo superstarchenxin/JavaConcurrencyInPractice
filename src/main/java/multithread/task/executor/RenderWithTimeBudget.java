@@ -7,8 +7,6 @@ import static java.util.concurrent.TimeUnit.NANOSECONDS;
  * RenderWithTimeBudget
  *
  * Fetching an advertisement with a time budget
- *
- * @author Brian Goetz and Tim Peierls
  */
 public class RenderWithTimeBudget {
     private static final Ad DEFAULT_AD = new Ad();

@@ -9,8 +9,6 @@ import java.util.concurrent.*;
  * FutureRenderer
  * <p/>
  * Waiting for image download with \Future
- *
- * @author Brian Goetz and Tim Peierls
  */
 public abstract class FutureRenderer {
     private final ExecutorService executor = Executors.newCachedThreadPool();

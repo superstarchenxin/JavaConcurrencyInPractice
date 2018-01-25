@@ -144,7 +144,8 @@
     ```
 
 ## 实战：找出可利用的并行性
-### 任务：串行的页面渲染器
+### 任务：实现一个《开发者头条》的页面阅读器
+* [示例代码](SingleThreadRenderer.java) 文字和图片一起加载
 
 ### Future + Callable + ExecutorService
 * Callable 接口中 call方法替代Runnable中的run的方法。

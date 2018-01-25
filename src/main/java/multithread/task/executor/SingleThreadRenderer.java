@@ -6,7 +6,6 @@ import java.util.*;
  * SingleThreadRendere
  * <p/>
  * Rendering page elements sequentially
- *
  */
 public abstract class SingleThreadRenderer {
     void renderPage(CharSequence source) {
